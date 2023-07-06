@@ -15,10 +15,21 @@ year = now.year
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 
+print('''
+,------.  ,------.   ,-----.  ,---.   
+|  .-.  \ |  .-.  \ '  .-.  ''   .-'  
+|  |  \  :|  |  \  :|  | |  |`.  `-.  
+|  '--'  /|  '--'  /'  '-'  '.-'    | 
+`-------' `-------'  `-----' `-----'  
+                                      
+''')
+
+
+
 #Banner End
-print "\255[1;40mAuthor    : Lutfifakee\255[1;40m "
-print "\255[1;40mTEam      : Padang Blackhat\255[1;40m "
-print "\255[1;40mGithub    : https://github.com/Emperror7\255[1;40m "
+print "\033[0;36mAuthor    : Lutfifakee\033[0;36m "
+print "\033[0;36mTeam      : Padang Blackhat\033[0;36m "
+print "\033[0;36mGithub    : https://github.com/Emperror7\033[0;36m "
 print     
 ip = raw_input("[*]Enter Target Ip : ")
 port = int(raw_input("[*]Enter Target Port : "))
